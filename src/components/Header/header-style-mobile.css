@@ -1,0 +1,98 @@
+@media all and (orientation: portrait) {
+  .label-menu-mobile {
+    display: block;
+  }
+  .next-generation-digital-banking {
+    background-image: url('../../images/image-mockups.png'), url('../../images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+  }
+
+  .btn-request-invite-desktop {
+    display: none;
+  }
+
+  header {
+    height: 80px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 86%;
+  }
+
+  .main-content-mobile {
+    display: none;
+  }
+
+  .logo {
+    height: 25px;
+  }
+
+  .top-bar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  [alt="icon-menu-hamburguer"] {
+    width: 13px;
+    height: 15px;
+  }
+  .main-menu {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 37.5%;
+    border-radius: 5px;
+  }
+
+  .main-menu ul li {
+    padding: 13px 0;
+  }
+
+  /* .icon-menu-hamburguer {
+    display: block;
+  } */
+
+  #input-menu-hamburguer:checked+nav {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 7%;
+  }
+  .text {
+    font-family: 'Public Sans';
+  }
+  .h2-style-default {
+    font-size: 45px;
+    text-align: center;
+    color: hsl(233, 26%, 24%);
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  .container {
+      padding: 0 7%;
+  }
+  .p-text-style-default {
+    color: hsl(233, 8%, 62%);
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .btn-request-invite {
+    display: flex;
+    align-self: center;
+    margin: 40px auto 40px auto;
+    padding: 20px 50px;
+    border: none;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+    background-color: rgb(28, 232, 124);
+    background: linear-gradient(135deg, rgba(28, 232, 124, 1) 0%, rgba(28, 232, 124, 1) 38%, rgba(0, 212, 255, 1) 69%, rgba(0, 212, 255, 1) 100%);
+  }
+}

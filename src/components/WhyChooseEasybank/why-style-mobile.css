@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+
+@media all and (orientation: portrait) {
+  .why-choose-easybank {
+    padding: 90px 7% 100px 7%;
+    background-color: rgb(244, 245, 247);
+  }
+  .reasons {
+    text-align: center;
+  }
+
+  .img-reason {
+    margin-top: 70px;
+    width: 110px;
+  }
+
+  .h3-text {
+    color: hsl(233, 26%, 24%);
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Public Sans';
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+}

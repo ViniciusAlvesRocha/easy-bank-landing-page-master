@@ -1,0 +1,73 @@
+@media all and (orientation: landscape) {
+
+  .container {
+    padding: 0 7%;
+  }
+  
+  .label-menu-mobile {
+    display: none;
+  }
+
+  .top-bar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+    height: 80px;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .main-menu ul {
+    display: flex;
+    color: rgb(0, 0, 0, .6);
+  }
+
+  .main-menu ul li {
+    padding: 0 15px;
+  }
+
+  .btn-request-invite-desktop {
+    display: flex;
+    align-self: center;
+    padding: 10px 50px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px;
+    background-color: rgb(28, 232, 124);
+    background: linear-gradient(135deg, rgba(28, 232, 124, 1) 0%, rgba(28, 232, 124, 1) 38%, rgba(0, 212, 255, 1) 69%, rgba(0, 212, 255, 1) 100%);
+  }
+
+  .next-generation-digital-banking {
+    background-image: url('../../images/image-mockups.png'), url('../../images/bg-intro-desktop.svg');
+    height: 130vh;
+    background-position: 125%, 5900%;
+    background-repeat: no-repeat;
+  }
+
+  .main-text-desktop {
+    position: relative;
+    bottom: 100vh;
+    font-family: 'Public Sans';
+  }
+
+  .h2-style-default {
+    font-size: 45px;
+    text-align: left;
+    color: hsl(233, 26%, 24%);
+    font-weight: 300;
+    margin-bottom: 30px;
+    width: 40%;
+  }
+
+  .why-choose-easybank {
+    position: relative;
+    bottom: 350px;
+  }
+
+}
