@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL GitHUb: [https://github.com/ViniciusAlvesRocha/easy-bank-landing-page-master](https://your-solution-url.com)
-- Live Site URL GitHub Pages: [https://viniciusalvesrocha.github.io/easy-bank-landing-page-master/build/](https://your-live-site-url.com)
+- Solution URL GitHUb: [https://github.com/ViniciusAlvesRocha/easy-bank-landing-page-master](https://github.com/ViniciusAlvesRocha/easy-bank-landing-page-master)
+- Live Site URL GitHub Pages: [https://viniciusalvesrocha.github.io/easy-bank-landing-page-master/build/](https://viniciusalvesrocha.github.io/easy-bank-landing-page-master/build/)
 
 ## My process
 
